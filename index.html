@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.css">
+	<style type="text/css">
+	body {
+		padding-top: 24px;
+	}
+	a {
+		color: #fbbd08;
+	}
+	#particles-js {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: -1;
+	}
+	.row {
+		margin: 24px 0;
+	}
+	.center {
+		text-align: center;
+	}
+/*	.ui.fixed.main-menu + div {
+		margin-top: 39px;
+		}*/
+		.menu-starter {
+			position: fixed;
+			right: 24px;
+			top: 24px;
+			padding-top: 16px;
+			margin-bottom: 0;
+			z-index: 997;
+		}
+		.meta {
+			font-size: 1em;
+			color: rgba(0,0,0,.4);
+		}
+		main .ui.grid.other-post .column:nth-child(2n) {
+			margin-top: 32px;
+		}
+		.ui.secondary.segment,
+		.actions-post {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="ui container">
+		<div class="ui grid">
+			<div class="column four wide">
+				<div class="ui card">
+					<a class="image" href="#">
+						<img src="image.png">
+					</a>
+				</div>
+				<h5 class="ui top attached header purple">Calendrier</h5>
+				<div class="ui segment attached">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit temporibus exercitationem pariatur praesentium similique sint libero aperiam quisquam hic consequatur dolore soluta id quae, magnam ducimus ex sunt, repellendus neque.</p>
+				</div>
+				<div class="row">
+					<div class="ui inverted segment">
+						<p>Création et Affiliation de Club</p>
+						<p><a href="#">Cliquez-ici</a></p>
+					</div>
+				</div>
+				<div class="row">
+					<h5 class="ui top attached header inverted">Side Title</h5>
+					<div class="ui segment attached ">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit temporibus exercitationem pariatur praesentium similique sint libero aperiam quisquam hic consequatur dolore soluta id quae, magnam ducimus ex sunt, repellendus neque.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="ui inverted segment">
+						<p>Newsletter</p>
+						<p><a href="#">Cliquez-ici</a></p>
+					</div>
+				</div>
+			</div>
+			<main class="column twelve wide" id="main">
+				<div class="ui menu fluid five item main-menu">
+					<a class="browse item">
+						Codep
+						<i class="dropdown icon"></i>
+					</a>
+					<div class="ui popup bottom left transition hidden">
+						<div class="ui two column relaxed divided grid">
+							<div class="column">
+								<h4 class="ui header">Fabrics</h4>
+								<div class="ui link list">
+									<a class="item">Cashmere</a>
+									<a class="item">Linen</a>
+									<a class="item">Cotton</a>
+									<a class="item">Viscose</a>
+								</div>
+							</div>
+							<div class="column">
+								<h4 class="ui header">Size</h4>
+								<div class="ui link list">
+									<a class="item">Small</a>
+									<a class="item">Medium</a>
+									<a class="item">Large</a>
+									<a class="item">Plus Sizes</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="browse item">
+						Clubs
+						<i class="dropdown icon"></i>
+					</a>
+					<div class="ui popup bottom left transition hidden">
+						<div class="ui two column relaxed divided grid">
+							<div class="column">
+								<h4 class="ui header">Fabrics</h4>
+								<div class="ui link list">
+									<a class="item">Cashmere</a>
+									<a class="item">Linen</a>
+									<a class="item">Cotton</a>
+									<a class="item">Viscose</a>
+								</div>
+							</div>
+							<div class="column">
+								<h4 class="ui header">Size</h4>
+								<div class="ui link list">
+									<a class="item">Small</a>
+									<a class="item">Medium</a>
+									<a class="item">Large</a>
+									<a class="item">Plus Sizes</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="browse item">
+						Compétitions
+						<i class="dropdown icon"></i>
+					</a>
+					<div class="ui popup bottom left transition hidden">
+						<div class="ui two column relaxed divided grid">
+							<div class="column">
+								<h4 class="ui header">Fabrics</h4>
+								<div class="ui link list">
+									<a class="item">Cashmere</a>
+									<a class="item">Linen</a>
+									<a class="item">Cotton</a>
+									<a class="item">Viscose</a>
+								</div>
+							</div>
+							<div class="column">
+								<h4 class="ui header">Size</h4>
+								<div class="ui link list">
+									<a class="item">Small</a>
+									<a class="item">Medium</a>
+									<a class="item">Large</a>
+									<a class="item">Plus Sizes</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="browse item">
+						Formations
+						<i class="dropdown icon"></i>
+					</a>
+					<div class="ui popup bottom left transition hidden">
+						<div class="ui two column relaxed divided grid">
+							<div class="column">
+								<h4 class="ui header">Fabrics</h4>
+								<div class="ui link list">
+									<a class="item">Cashmere</a>
+									<a class="item">Linen</a>
+									<a class="item">Cotton</a>
+									<a class="item">Viscose</a>
+								</div>
+							</div>
+							<div class="column">
+								<h4 class="ui header">Size</h4>
+								<div class="ui link list">
+									<a class="item">Small</a>
+									<a class="item">Medium</a>
+									<a class="item">Large</a>
+									<a class="item">Plus Sizes</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="browse item">
+						Documents
+						<i class="dropdown icon"></i>
+					</a>
+					<div class="ui popup bottom left transition hidden">
+						<div class="ui two column relaxed divided grid">
+							<div class="column">
+								<h4 class="ui header">Fabrics</h4>
+								<div class="ui link list">
+									<a class="item">Cashmere</a>
+									<a class="item">Linen</a>
+									<a class="item">Cotton</a>
+									<a class="item">Viscose</a>
+								</div>
+							</div>
+							<div class="column">
+								<h4 class="ui header">Size</h4>
+								<div class="ui link list">
+									<a class="item">Small</a>
+									<a class="item">Medium</a>
+									<a class="item">Large</a>
+									<a class="item">Plus Sizes</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="ui segment raised piled very padded">
+					<h1 class="ui header">
+						<div class="content">
+							<a href="#">Titre d'article star</a>
+							<div class="sub header">
+								<small>le 16/03/18</small>
+							</div>
+						</div>
+					</h1></a>
+					<img class="ui tiny left floated image" src="image.png">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit temporibus exercitationem pariatur praesentium similique sint libero aperiam quisquam hic consequatur dolore soluta id quae, magnam ducimus ex sunt, repellendus neque.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro corrupti neque recusandae distinctio dicta earum ratione, ab tempora saepe itaque, rerum. Quibusdam ratione, qui iste cum sit, labore nulla sapiente!</p>
+				</div>
+				<div class="ui grid other-post">
+					<div class="column eight wide">
+						<div class="ui segments">
+							<div class="ui segment raised padded blue">
+								<h4 class="ui header">
+									<div class="content">
+										<a href="#">Titre d'article</a>
+										<div class="sub header">
+											<small>le 16/03/18</small>
+										</div>
+									</div>
+								</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit temporibus exercitationem pariatur praesentium similique sint libero aperiam quisquam hic consequatur dolore soluta id quae, magnam ducimus ex...</p>
+								<div class="ui divider"></div>
+								<div class="actions-post">
+									<div class="socials-links">
+										<button class="ui circular facebook icon button mini">
+											<i class="facebook icon"></i>
+										</button>
+										<button class="ui circular twitter icon button mini">
+											<i class="twitter icon"></i>
+										</button>
+									</div>
+
+									<a class="right floated"><button class="ui right labeled tiny icon button">
+										<i class="right arrow icon"></i>
+										Suite
+									</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column eight wide">
+						<div class="ui segments">
+							<div class="ui segment raised padded olive">
+								<h4 class="ui header">
+									<div class="content">
+										<a href="#">Titre d'article</a>
+										<div class="sub header">
+											<small>le 16/03/18</small>
+										</div>
+									</div>
+								</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit temporibus exercitationem pariatur praesentium similique sint libero aperiam quisquam hic consequatur dolore soluta id quae, magnam ducimus ex...</p>
+								<div class="ui divider"></div>
+								<div class="actions-post">
+									<div class="socials-links">
+										<button class="ui circular facebook icon button mini">
+											<i class="facebook icon"></i>
+										</button>
+										<button class="ui circular twitter icon button mini">
+											<i class="twitter icon"></i>
+										</button>
+									</div>
+
+									<a class="right floated"><button class="ui right labeled tiny icon button">
+										<i class="right arrow icon"></i>
+										Suite
+									</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column eight wide">
+						<div class="ui segments">
+							<div class="ui segment raised padded purple">
+								<h4 class="ui header">
+									<div class="content">
+										<a href="#">Titre d'article</a>
+										<div class="sub header">
+											<small>le 16/03/18</small>
+										</div>
+									</div>
+								</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit temporibus exercitationem pariatur praesentium similique sint libero aperiam quisquam hic consequatur dolore soluta id quae, magnam ducimus ex...</p>
+								<div class="ui divider"></div>
+								<div class="actions-post">
+									<div class="socials-links">
+										<button class="ui circular facebook icon button mini">
+											<i class="facebook icon"></i>
+										</button>
+										<button class="ui circular twitter icon button mini">
+											<i class="twitter icon"></i>
+										</button>
+									</div>
+
+									<a class="right floated"><button class="ui right labeled tiny icon button">
+										<i class="right arrow icon"></i>
+										Suite
+									</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column eight wide">
+						<div class="ui segments">
+							<div class="ui segment raised padded yellow">
+								<h4 class="ui header">
+									<div class="content">
+										<a href="#">Titre d'article</a>
+										<div class="sub header">
+											<small>le 16/03/18</small>
+										</div>
+									</div>
+								</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit temporibus exercitationem pariatur praesentium similique sint libero aperiam quisquam hic consequatur dolore soluta id quae, magnam ducimus ex...</p>
+								<div class="ui divider"></div>
+								<div class="actions-post">
+									<div class="socials-links">
+										<button class="ui circular facebook icon button mini">
+											<i class="facebook icon"></i>
+										</button>
+										<button class="ui circular twitter icon button mini">
+											<i class="twitter icon"></i>
+										</button>
+									</div>
+
+									<a class="right floated"><button class="ui right labeled tiny icon button">
+										<i class="right arrow icon"></i>
+										Suite
+									</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row center">
+					<div class="ui pagination menu">
+						<a class="active item">
+							1
+						</a>
+						<div class="disabled item">
+							...
+						</div>
+						<a class="item">
+							10
+						</a>
+						<a class="item">
+							11
+						</a>
+						<a class="item">
+							12
+						</a>
+					</div>
+				</div>
+				<footer class="ui vertical segment inverted">
+					<p>footer</p>
+				</footer>
+			</main>
+		</div>
+	</div>
+	<div id="particles-js"></div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.js"></script>
+	<script src="particules.js"></script>
+	<script>
+		(function($) {
+			$(document).ready(function() {
+				$('.ui.main-menu').sticky();
+				$('.main-menu a.browse').popup({
+					inline     : true,
+					hoverable  : true,
+					position   : 'bottom left',
+					delay: {
+						show: 100,
+						hide: 300
+					}
+				});
+				particlesJS('particles-js', {
+  "particles": {
+    "number": {
+      "value": 20,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#7d008e"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 12.02559045649142,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 100,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+			});
+		}) (jQuery);
+	</script>
+</body>
+</html>
